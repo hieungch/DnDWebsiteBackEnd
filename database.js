@@ -1,8 +1,10 @@
 const mongoose = require("mongoose");
+const config = require("./config.json");
 
-const uri = "mongodb://127.0.0.1:27018/DnD";
-
-mongoose.connect(uri, { useUnifiedTopology: true, useNewUrlParser: true });
+mongoose.connect(config.databseConnectionString, {
+  useUnifiedTopology: true,
+  useNewUrlParser: true,
+});
 const connection = mongoose.connection;
 
 connection.once("open", function () {

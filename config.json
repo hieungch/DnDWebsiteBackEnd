@@ -1,0 +1,6 @@
+
+{
+    "databseConnectionString" :"mongodb://127.0.0.1:27018/DnD",
+    "port" : 3000,
+    "host" : "localhost"
+}

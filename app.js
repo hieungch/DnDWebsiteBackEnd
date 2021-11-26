@@ -1,6 +1,7 @@
 // import {Express} from "express";
 const express = require("express");
 require("./database");
+const config = require("./config.json");
 
 const bodyParser = require("body-parser");
 
@@ -18,7 +19,6 @@ const characterRouter = require("./routes/charactersheets");
 
 const app = express();
 app.use(bodyParser.json({ type: "application/*+json" }));
-const port = 3000;
 
 app.use("/skills", skillRouter);
 app.use("/charactersheets", characterRouter);
@@ -32,6 +32,8 @@ app.use("/characterclasses", characterclassRouter);
 app.use("/races", raceRouter);
 app.use("/subraces", subraceRouter);
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+app.listen(config.port, config.host, () => {
+  console.log(
+    `DnD api server listening at http://${config.host}:${config.port}`
+  );
 });

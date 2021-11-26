@@ -1,0 +1,50 @@
+[
+    {
+        "diceName" : "d0",
+        "nbFace" : 0,
+        "maxFacepoint" : 0,
+        "minFacepoint" : 0
+    },
+    {
+        "diceName" : "d4",
+        "nbFace" : 4,
+        "maxFacepoint" : 4,
+        "minFacepoint" : 1
+    },
+    {
+        "diceName" : "d6",
+        "nbFace" : 6,
+        "maxFacepoint" : 6,
+        "minFacepoint" : 1
+    },
+    {
+        "diceName" : "d8",
+        "nbFace" : 8,
+        "maxFacepoint" : 8,
+        "minFacepoint" : 1
+    },
+    {
+        "diceName" : "d10",
+        "nbFace" : 10,
+        "maxFacepoint" : 10,
+        "minFacepoint" : 1
+    },
+    {
+        "diceName" : "d12",
+        "nbFace" : 12,
+        "maxFacepoint" : 12,
+        "minFacepoint" : 1
+    },
+    {
+        "diceName" : "d20",
+        "nbFace" : 20,
+        "maxFacepoint" : 20,
+        "minFacepoint" : 1
+    },
+    {
+        "diceName" : "d100",
+        "nbFace" : 100,
+        "maxFacepoint" : 100,
+        "minFacepoint" : 1
+    }
+]

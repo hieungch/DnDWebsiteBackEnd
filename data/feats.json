@@ -1,0 +1,74 @@
+[
+    {
+        "id" : 1,
+        "featName" : "Alert",
+        "prerequisite" : "none",
+        "description" : "gain additional 5 in initiative"
+    },
+    {
+        "id" : 2,
+        "featName" : "Actor",
+        "prerequisite" : "none",
+        "description" : "Increase your charisma by 1"
+    },
+    {
+        "id" : 3,
+        "featName" : "Grappler",
+        "prerequisite" : "none",
+        "description" : "Increase your charisma by 1You have advantage on attack rolls against a creature you are grappling"
+    },
+    {
+        "id" : 4,
+        "featName" : "Keen mind",
+        "prerequisite" : "none",
+        "description" : "Increase your Intelligence score by 1, to a maximum of 20."
+    },
+    {
+        "id" : 5,
+        "featName" : "Healer",
+        "prerequisite" : "none",
+        "description" : "When you use a healer’s kit to stabilize a dying creature, that creature also regains 1 hit point"
+    },
+    {
+        "id" : 6,
+        "featName" : "Mage Slayer",
+        "prerequisite" : "none",
+        "description" : "When a creature within 5 feet of you casts a spell, you can use your reaction to make a m elee weapon attack against that creature."
+    },
+    {
+        "id" : 7,
+        "featName" : "Polearm Master",
+        "prerequisite" : "none",
+        "description" : "When you take the Attack action and attack with only a glaive, halberd, or quarterstaff, you can use a bonus action to make a melee attack with the opposite end of the weapon. The weapon’s damage die is a d4, the attack deals bludgeoning damage. Also, creatures provoke an opportunity attack from you when they enter your reach when you are using polearms"
+    },
+    {
+        "id" : 8,
+        "featName" : "Ritual caster",
+        "prerequisite" : "Intelligence or Wisdom 13 or higher",
+        "description" : "When you choose this feat, you acquire a ritual book holding two 1st-level spells of your choice. Choose one of the following classes: bard, cleric, druid, sorcerer, warlock, or wizard. You must choose your spells from that class’s spell list, and the spells you choose must have the ritual tag. The class you choose also determ ines your spellcasting ability for these spells: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard."
+    },
+    {
+        "id" : 9,
+        "featName" : "Savage attacker",
+        "prerequisite" : "none",
+        "description" : "Once per turn when you roll damage for a m elee w eapon attack, you can reroll the w eapon’s damage dice and use either total."
+    },
+    {
+        "id" : 10,
+        "featName" : "Sentinel",
+        "prerequisite" : "none",
+        "description" : "When you hit a creature with an opportunity attack, the creature’s speed becomes 0 for the rest of the turn."
+    },
+    {
+        "id" : 11,
+        "featName" : "Shield Master",
+        "prerequisite" : "none",
+        "description" : "If you take the Attack action on your turn, you can use a bonus action to try to shove a creature within 5 feet of you with your shield."
+    },
+    {
+        "id" : 12,
+        "featName" : "Skilled",
+        "prerequisite" : "none",
+        "description" : "You gain proficiency in any com bination of three skills or tools of your choice."
+    }
+]

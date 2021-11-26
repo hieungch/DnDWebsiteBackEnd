@@ -1,0 +1,432 @@
+[
+    {
+        "id" : 1,
+        "specialStatName" : "Ki",
+        "scale" : [ 
+            {
+                "level" : 1,
+                "point" : 0
+            }, 
+            {
+                "level" : 2,
+                "point" : 2
+            }, 
+            {
+                "level" : 3,
+                "point" : 3
+            }, 
+            {
+                "level" : 4,
+                "point" : 4
+            }, 
+            {
+                "level" : 5,
+                "point" : 5
+            }, 
+            {
+                "level" : 6,
+                "point" : 6
+            }, 
+            {
+                "level" : 7,
+                "point" : 7
+            }, 
+            {
+                "level" : 8,
+                "point" : 8
+            }, 
+            {
+                "level" : 9,
+                "point" : 9
+            }, 
+            {
+                "level" : 10,
+                "point" : 10
+            }, 
+            {
+                "level" : 11,
+                "point" : 11
+            }, 
+            {
+                "level" : 12,
+                "point" : 12
+            }, 
+            {
+                "level" : 13,
+                "point" : 13
+            }, 
+            {
+                "level" : 14,
+                "point" : 14
+            }, 
+            {
+                "level" : 15,
+                "point" : 15
+            }, 
+            {
+                "level" : 16,
+                "point" : 16
+            }, 
+            {
+                "level" : 17,
+                "point" : 17
+            }, 
+            {
+                "level" : 18,
+                "point" : 18
+            }, 
+            {
+                "level" : 19,
+                "point" : 19
+            }, 
+            {
+                "level" : 20,
+                "point" : 20
+            }
+        ]
+    },
+    {
+        "id" : 2,
+        "specialStatName" : "Sorcery",
+        "scale" : [ 
+            {
+                "level" : 1,
+                "point" : 0
+            }, 
+            {
+                "level" : 2,
+                "point" : 2
+            }, 
+            {
+                "level" : 3,
+                "point" : 3
+            }, 
+            {
+                "level" : 4,
+                "point" : 4
+            }, 
+            {
+                "level" : 5,
+                "point" : 5
+            }, 
+            {
+                "level" : 6,
+                "point" : 6
+            }, 
+            {
+                "level" : 7,
+                "point" : 7
+            }, 
+            {
+                "level" : 8,
+                "point" : 8
+            }, 
+            {
+                "level" : 9,
+                "point" : 9
+            }, 
+            {
+                "level" : 10,
+                "point" : 10
+            }, 
+            {
+                "level" : 11,
+                "point" : 11
+            }, 
+            {
+                "level" : 12,
+                "point" : 12
+            }, 
+            {
+                "level" : 13,
+                "point" : 13
+            }, 
+            {
+                "level" : 14,
+                "point" : 14
+            }, 
+            {
+                "level" : 15,
+                "point" : 15
+            }, 
+            {
+                "level" : 16,
+                "point" : 16
+            }, 
+            {
+                "level" : 17,
+                "point" : 17
+            }, 
+            {
+                "level" : 18,
+                "point" : 18
+            }, 
+            {
+                "level" : 19,
+                "point" : 19
+            }, 
+            {
+                "level" : 20,
+                "point" : 20
+            }
+        ]
+    },
+    {
+        "id" : 3,
+        "specialStatName" : "superdice",
+        "scale" : [ 
+            {
+                "level" : 1,
+                "point" : 0
+            }, 
+            {
+                "level" : 2,
+                "point" : 0
+            }, 
+            {
+                "level" : 3,
+                "point" : 4
+            }, 
+            {
+                "level" : 4,
+                "point" : 4
+            }, 
+            {
+                "level" : 5,
+                "point" : 4
+            }, 
+            {
+                "level" : 6,
+                "point" : 4
+            }, 
+            {
+                "level" : 7,
+                "point" : 5
+            }, 
+            {
+                "level" : 8,
+                "point" : 5
+            }, 
+            {
+                "level" : 9,
+                "point" : 5
+            }, 
+            {
+                "level" : 10,
+                "point" : 5
+            }, 
+            {
+                "level" : 11,
+                "point" : 5
+            }, 
+            {
+                "level" : 12,
+                "point" : 5
+            }, 
+            {
+                "level" : 13,
+                "point" : 5
+            }, 
+            {
+                "level" : 14,
+                "point" : 5
+            }, 
+            {
+                "level" : 15,
+                "point" : 6
+            }, 
+            {
+                "level" : 16,
+                "point" : 6
+            }, 
+            {
+                "level" : 17,
+                "point" : 6
+            }, 
+            {
+                "level" : 18,
+                "point" : 6
+            }, 
+            {
+                "level" : 19,
+                "point" : 6
+            }, 
+            {
+                "level" : 20,
+                "point" : 6
+            }
+        ]
+    },
+    {
+        "id" : 4,
+        "specialStatName" : "Rage",
+        "scale" : [ 
+            {
+                "level" : 1,
+                "point" : 2
+            }, 
+            {
+                "level" : 2,
+                "point" : 2
+            }, 
+            {
+                "level" : 3,
+                "point" : 3
+            }, 
+            {
+                "level" : 4,
+                "point" : 3
+            }, 
+            {
+                "level" : 5,
+                "point" : 3
+            }, 
+            {
+                "level" : 6,
+                "point" : 4
+            }, 
+            {
+                "level" : 7,
+                "point" : 4
+            }, 
+            {
+                "level" : 8,
+                "point" : 4
+            }, 
+            {
+                "level" : 9,
+                "point" : 4
+            }, 
+            {
+                "level" : 10,
+                "point" : 4
+            }, 
+            {
+                "level" : 11,
+                "point" : 4
+            }, 
+            {
+                "level" : 12,
+                "point" : 5
+            }, 
+            {
+                "level" : 13,
+                "point" : 5
+            }, 
+            {
+                "level" : 14,
+                "point" : 5
+            }, 
+            {
+                "level" : 15,
+                "point" : 5
+            }, 
+            {
+                "level" : 16,
+                "point" : 5
+            }, 
+            {
+                "level" : 17,
+                "point" : 6
+            }, 
+            {
+                "level" : 18,
+                "point" : 6
+            }, 
+            {
+                "level" : 19,
+                "point" : 6
+            }, 
+            {
+                "level" : 20,
+                "point" : 999
+            }
+        ]
+    },
+    {
+        "id" : 0,
+        "specialStatName" : "none",
+        "scale" : [ 
+            {
+                "level" : 1,
+                "point" : 0
+            }, 
+            {
+                "level" : 2,
+                "point" : 0
+            }, 
+            {
+                "level" : 3,
+                "point" : 0
+            }, 
+            {
+                "level" : 4,
+                "point" : 0
+            }, 
+            {
+                "level" : 5,
+                "point" : 0
+            }, 
+            {
+                "level" : 6,
+                "point" : 0
+            }, 
+            {
+                "level" : 7,
+                "point" : 0
+            }, 
+            {
+                "level" : 8,
+                "point" : 0
+            }, 
+            {
+                "level" : 9,
+                "point" : 0
+            }, 
+            {
+                "level" : 10,
+                "point" : 0
+            }, 
+            {
+                "level" : 11,
+                "point" : 0
+            }, 
+            {
+                "level" : 12,
+                "point" : 0
+            }, 
+            {
+                "level" : 13,
+                "point" : 0
+            }, 
+            {
+                "level" : 14,
+                "point" : 0
+            }, 
+            {
+                "level" : 15,
+                "point" : 0
+            }, 
+            {
+                "level" : 16,
+                "point" : 0
+            }, 
+            {
+                "level" : 17,
+                "point" : 0
+            }, 
+            {
+                "level" : 18,
+                "point" : 0
+            }, 
+            {
+                "level" : 19,
+                "point" : 0
+            }, 
+            {
+                "level" : 20,
+                "point" : 0
+            }
+        ]
+    }
+]

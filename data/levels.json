@@ -1,0 +1,102 @@
+[
+    {
+        "id" : 1,
+        "proficiencyBonus" : 2,
+        "abilityImprovement" : false
+    },
+    {
+        "id" : 2,
+        "proficiencyBonus" : 2,
+        "abilityImprovement" : false
+    },
+    {
+        "id" : 3,
+        "proficiencyBonus" : 2,
+        "abilityImprovement" : false
+    },
+    {
+        "id" : 4,
+        "proficiencyBonus" : 2,
+        "abilityImprovement" : true
+    },
+    {
+        "id" : 5,
+        "proficiencyBonus" : 3,
+        "abilityImprovement" : true
+    },
+    {
+        "id" : 6,
+        "proficiencyBonus" : 3,
+        "abilityImprovement" : true
+    },
+    {
+        "id" : 7,
+        "proficiencyBonus" : 3,
+        "abilityImprovement" : true
+    },
+    {
+        "id" : 8,
+        "proficiencyBonus" : 3,
+        "abilityImprovement" : true
+    },
+    {
+        "id" : 9,
+        "proficiencyBonus" : 4,
+        "abilityImprovement" : false
+    },
+    {
+        "id" : 10,
+        "proficiencyBonus" : 4,
+        "abilityImprovement" : false
+    },
+    {
+        "id" : 11,
+        "proficiencyBonus" : 4,
+        "abilityImprovement" : false
+    },
+    {
+        "id" : 12,
+        "proficiencyBonus" : 4,
+        "abilityImprovement" : true
+    },
+    {
+        "id" : 13,
+        "proficiencyBonus" : 5,
+        "abilityImprovement" : false
+    },
+    {
+        "id" : 14,
+        "proficiencyBonus" : 5,
+        "abilityImprovement" : false
+    },
+    {
+        "id" : 15,
+        "proficiencyBonus" : 5,
+        "abilityImprovement" : false
+    },
+    {
+        "id" : 16,
+        "proficiencyBonus" : 5,
+        "abilityImprovement" : true
+    },
+    {
+        "id" : 17,
+        "proficiencyBonus" : 6,
+        "abilityImprovement" : false
+    },
+    {
+        "id" : 18,
+        "proficiencyBonus" : 6,
+        "abilityImprovement" : false
+    },
+    {
+        "id" : 19,
+        "proficiencyBonus" : 6,
+        "abilityImprovement" : true
+    },
+    {
+        "id" : 20,
+        "proficiencyBonus" : 6,
+        "abilityImprovement" : false
+    }
+]

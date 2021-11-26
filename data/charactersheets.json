@@ -1,0 +1,102 @@
+[
+    {
+        "id" : 1,
+        "__v" : 1,
+        "background" : 2,
+        "characterClass" : 2,
+        "charisma" : 10,
+        "constitution" : 20,
+        "dexterity" : 18,
+        "feats" : [],
+        "hp" : 3,
+        "inspiration" : 0,
+        "intelligent" : 16,
+        "level" : 2,
+        "maxHp" : 10,
+        "name" : "Durin",
+        "race" : 3,
+        "skillProficency" : [ 
+            1, 
+            2, 
+            3, 
+            4
+        ],
+        "strength" : 10,
+        "wisdom" : 13
+    },
+    {
+        "id" : 2,
+        "name" : "adramaliik",
+        "level" : 1,
+        "inspiration" : 0,
+        "strength" : 20,
+        "dexterity" : 15,
+        "constitution" : 11,
+        "intelligent" : 12,
+        "wisdom" : 13,
+        "charisma" : 10,
+        "background" : 2,
+        "race" : 2,
+        "characterClass" : 5,
+        "hp" : 10,
+        "maxHp" : 10,
+        "skillProficency" : [ 
+            1, 
+            2, 
+            3, 
+            4
+        ],
+        "feats" : [],
+        "__v" : 0
+    },
+    {
+        "id" : 3,
+        "name" : "Jhin",
+        "level" : 1,
+        "inspiration" : 0,
+        "strength" : 12,
+        "dexterity" : 16,
+        "constitution" : 16,
+        "intelligent" : 20,
+        "wisdom" : 10,
+        "charisma" : 16,
+        "background" : 3,
+        "race" : 3,
+        "characterClass" : 3,
+        "hp" : 10,
+        "maxHp" : 10,
+        "skillProficency" : [ 
+            1, 
+            2, 
+            3, 
+            4
+        ],
+        "feats" : [],
+        "__v" : 0
+    },
+    {
+        "id" : 4,
+        "name" : "test",
+        "level" : 1,
+        "inspiration" : 0,
+        "strength" : 10,
+        "dexterity" : 10,
+        "constitution" : 10,
+        "intelligent" : 10,
+        "wisdom" : 10,
+        "charisma" : 10,
+        "background" : 1,
+        "race" : 1,
+        "characterClass" : 1,
+        "hp" : 10,
+        "maxHp" : 10,
+        "skillProficency" : [ 
+            1, 
+            2, 
+            3, 
+            4
+        ],
+        "feats" : [],
+        "__v" : 0
+    }
+]

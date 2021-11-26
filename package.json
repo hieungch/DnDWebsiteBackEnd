@@ -1,0 +1,30 @@
+{
+  "name": "dnd-back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "reset-db": "node resetDb.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hieungch/DnDWebsiteBackEnd.git"
+  },
+  "author": "Hieu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hieungch/DnDWebsiteBackEnd/issues"
+  },
+  "homepage": "https://github.com/hieungch/DnDWebsiteBackEnd#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13",
+    "mongoose-auto-increment": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

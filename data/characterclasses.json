@@ -1,0 +1,194 @@
+[
+    {
+        "id" : 1,
+        "className" : "Berzerker barbarian",
+        "profArmor" : "light,medium armor and shield",
+        "profWeapon" : "simple and martial weapon",
+        "proftools" : "none",
+        "profSavingThrow" : [ 
+            "strength", 
+            "constitution"
+        ],
+        "hitDiceType" : "d12",
+        "profSkill" : [ 
+            2, 
+            4, 
+            8, 
+            11, 
+            12, 
+            18
+        ],
+        "specialStat" : 4,
+        "ability" : [ 
+            1, 
+            2, 
+            3, 
+            4, 
+            5, 
+            6, 
+            7, 
+            8, 
+            9
+        ]
+    },
+    {
+        "id" : 2,
+        "className" : "Totem barbarian",
+        "profArmor" : "Light,medium armor and shield",
+        "profWeapon" : "Simple and martial weapon",
+        "proftools" : "None",
+        "profSavingThrow" : [ 
+            "strength", 
+            "constitution"
+        ],
+        "hitDiceType" : "d12",
+        "profSkill" : [ 
+            2, 
+            4, 
+            8, 
+            11, 
+            12, 
+            18
+        ],
+        "specialStat" : 4,
+        "ability" : [ 
+            1, 
+            2, 
+            3, 
+            4, 
+            5, 
+            6, 
+            10, 
+            11, 
+            12
+        ]
+    },
+    {
+        "id" : 3,
+        "className" : "Champion fighter",
+        "profArmor" : "All armors and shield",
+        "profWeapon" : "Simple and martial weapon",
+        "proftools" : "None",
+        "profSavingThrow" : [ 
+            "strength", 
+            "constitution"
+        ],
+        "hitDiceType" : "d10",
+        "profSkill" : [ 
+            1, 
+            2, 
+            4, 
+            6, 
+            7, 
+            8, 
+            12, 
+            18
+        ],
+        "specialStat" : 0,
+        "ability" : [ 
+            13, 
+            14, 
+            15, 
+            16, 
+            17, 
+            18, 
+            19, 
+            20, 
+            21
+        ]
+    },
+    {
+        "id" : 4,
+        "className" : "Battlemaster fighter",
+        "profArmor" : "All armors and shield",
+        "profWeapon" : "Simple and martial weapon",
+        "proftools" : "None",
+        "profSavingThrow" : [ 
+            "strength", 
+            "constitution"
+        ],
+        "hitDiceType" : "d10",
+        "profSkill" : [ 
+            1, 
+            2, 
+            4, 
+            6, 
+            7, 
+            8, 
+            12, 
+            18
+        ],
+        "specialStat" : 3,
+        "ability" : [ 
+            13, 
+            14, 
+            15, 
+            16, 
+            17, 
+            18, 
+            22, 
+            23, 
+            24
+        ]
+    },
+    {
+        "id" : 5,
+        "className" : "Divination wizard",
+        "profArmor" : "None",
+        "profWeapon" : "Daggers,darts,slings,quarterstaff,light crossbow",
+        "proftools" : "None",
+        "profSavingThrow" : [ 
+            "intelligent", 
+            "wisdom"
+        ],
+        "hitDiceType" : "d6",
+        "profSkill" : [ 
+            2, 
+            6, 
+            7, 
+            9, 
+            11, 
+            15
+        ],
+        "specialStat" : 0,
+        "ability" : [ 
+            25, 
+            26, 
+            27, 
+            28, 
+            29, 
+            30, 
+            31
+        ]
+    },
+    {
+        "id" : 6,
+        "className" : "Evocation wizard",
+        "profArmor" : "None",
+        "profWeapon" : "Daggers,darts,slings,quarterstaff,light crossbow",
+        "proftools" : "None",
+        "profSavingThrow" : [ 
+            "intelligent", 
+            "wisdom"
+        ],
+        "hitDiceType" : "d6",
+        "profSkill" : [ 
+            2, 
+            6, 
+            7, 
+            9, 
+            11, 
+            15
+        ],
+        "specialStat" : 0,
+        "ability" : [ 
+            25, 
+            26, 
+            27, 
+            28, 
+            32, 
+            33, 
+            34
+        ]
+    }
+]

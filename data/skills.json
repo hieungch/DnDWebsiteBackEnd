@@ -1,0 +1,92 @@
+[
+    {
+        "id" : 1,
+        "skillname" : "Acrobatic",
+        "statModifier" : "dexterity"
+    },
+    {
+        "id" : 2,
+        "skillname" : "Animal Handling",
+        "statModifier" : "wisdom"
+    },
+    {
+        "id" : 3,
+        "skillname" : "Arcana",
+        "statModifier" : "wisdom"
+    },
+    {
+        "id" : 4,
+        "skillname" : "Athletic",
+        "statModifier" : "strength"
+    },
+    {
+        "id" : 5,
+        "skillname" : "Deception",
+        "statModifier" : "charisma"
+    },
+    {
+        "id" : 6,
+        "skillname" : "History",
+        "statModifier" : "intelligent"
+    },
+    {
+        "id" : 7,
+        "skillname" : "Insight",
+        "statModifier" : "wisdom"
+    },
+    {
+        "id" : 8,
+        "skillname" : "Intimidation",
+        "statModifier" : "charisma"
+    },
+    {
+        "id" : 9,
+        "skillname" : "Intvestigation",
+        "statModifier" : "intelligent"
+    },
+    {
+        "id" : 10,
+        "skillname" : "Medicine",
+        "statModifier" : "wisdom"
+    },
+    {
+        "id" : 11,
+        "skillname" : "Nature",
+        "statModifier" : "intelligent"
+    },
+    {
+        "id" : 12,
+        "skillname" : "Perception",
+        "statModifier" : "wisdom"
+    },
+    {
+        "id" : 13,
+        "skillname" : "Performance",
+        "statModifier" : "charisma"
+    },
+    {
+        "id" : 14,
+        "skillname" : "Persuasion",
+        "statModifier" : "charisma"
+    },
+    {
+        "id" : 15,
+        "skillname" : "Religion",
+        "statModifier" : "intelligent"
+    },
+    {
+        "id" : 16,
+        "skillname" : "Sleight of hand",
+        "statModifier" : "dexterity"
+    },
+    {
+        "id" : 17,
+        "skillname" : "Stealth",
+        "statModifier" : "dexterity"
+    },
+    {
+        "id" : 18,
+        "skillname" : "Survival",
+        "statModifier" : "wisdom"
+    }
+]

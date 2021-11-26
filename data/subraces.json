@@ -1,0 +1,117 @@
+[
+    {
+        "name" : "Hill Dwarf",
+        "mainRace" : 1,
+        "subRacialAbilities" : [ 
+            35, 
+            36, 
+            37, 
+            38
+        ],
+        "abilityScoreIncrease" : [ 
+            {
+                "stat" : "constitution",
+                "scoreBonus" : 2
+            }, 
+            {
+                "stat" : "wisdom",
+                "scoreBonus" : 1
+            }
+        ]
+    },
+    {
+        "name" : "Mountain Dwarf",
+        "mainRace" : 1,
+        "subRacialAbilities" : [ 
+            35, 
+            36, 
+            37, 
+            39
+        ],
+        "abilityScoreIncrease" : [ 
+            {
+                "stat" : "constitution",
+                "scoreBonus" : 2
+            }, 
+            {
+                "stat" : "strength",
+                "scoreBonus" : 2
+            }
+        ]
+    },
+    {
+        "name" : "High-elf",
+        "mainRace" : 2,
+        "subRacialAbilities" : [ 
+            40, 
+            41, 
+            42, 
+            43, 
+            44
+        ],
+        "abilityScoreIncrease" : [ 
+            {
+                "stat" : "dexterity",
+                "scoreBonus" : 2
+            }, 
+            {
+                "stat" : "intelligent",
+                "scoreBonus" : 1
+            }
+        ]
+    },
+    {
+        "name" : "Wood-elf",
+        "mainRace" : 2,
+        "subRacialAbilities" : [ 
+            40, 
+            41, 
+            42, 
+            45, 
+            46
+        ],
+        "abilityScoreIncrease" : [ 
+            {
+                "stat" : "dexterity",
+                "scoreBonus" : 2
+            }, 
+            {
+                "stat" : "wisdom",
+                "scoreBonus" : 1
+            }
+        ]
+    },
+    {
+        "name" : "Human",
+        "mainRace" : 2,
+        "subRacialAbilities" : [ 
+            47
+        ],
+        "abilityScoreIncrease" : [ 
+            {
+                "stat" : "strength",
+                "scoreBonus" : 1
+            }, 
+            {
+                "stat" : "dexterity",
+                "scoreBonus" : 1
+            }, 
+            {
+                "stat" : "constitution",
+                "scoreBonus" : 1
+            }, 
+            {
+                "stat" : "intelligent",
+                "scoreBonus" : 1
+            }, 
+            {
+                "stat" : "wisdom",
+                "scoreBonus" : 1
+            }, 
+            {
+                "stat" : "charisma",
+                "scoreBonus" : 1
+            }
+        ]
+    }
+]

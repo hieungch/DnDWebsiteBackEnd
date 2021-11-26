@@ -1,0 +1,62 @@
+[
+    {
+        "id" : 1,
+        "name" : "Hermit",
+        "description" : "You lived in seclusion—either in a sheltered community such as a monastery, or entirely alone—for a formative part of your life. In your time apart from the clam or of society, you found quiet, solitude, and perhaps som e of the answers you were looking for.",
+        "languages" : "one of your choice",
+        "equipment" : "A scroll case stuffed full of notes from your studies or prayers, a winter blanket, a set of com m on clothes, an herbalism kit, and 5 gp",
+        "toolprof" : "Herbalism kit",
+        "skillprof" : [ 
+            10, 
+            15
+        ]
+    },
+    {
+        "id" : 2,
+        "name" : "Acolyte",
+        "description" : "You have spent your life in the service of a temple to a specific god or pantheon of gods. You act as an intermediary between the realm of the holy and the mortal world, perform ing sacred rites and offering sacrifices in order to conduct w orshipers into the presence of the divine. You are not necessarily a cleric-performing sacred rites is not the same thing as channeling divine power",
+        "languages" : "two of choice",
+        "equipment" : "A holy sym bol (a gift to you w hen you entered the priesthood), a prayer book or prayer wheel, 5 sticks of incense, vestments, a set of common clothes, and a belt pouch containing 15 gp",
+        "toolprof" : "none",
+        "skillprof" : [ 
+            7, 
+            15
+        ]
+    },
+    {
+        "id" : 3,
+        "name" : "Sage",
+        "description" : "You spent years learning the lore o f the multiverse. You scoured manuscripts, studied scrolls, and listened to the greatest experts on the subjects that interest you. Your efforts have made you a master in your fields of study.",
+        "languages" : "two of choice",
+        "equipment" : "A bottle of black ink, a quill, a small knife, a letter from a dead colleague posing a question you have not yet been able to answer, a set of common clothes, and a belt pouch containing 10 gp",
+        "toolprof" : "none",
+        "skillprof" : [ 
+            3, 
+            6
+        ]
+    },
+    {
+        "id" : 4,
+        "name" : "Outlander",
+        "description" : "You grew up in the wilds, far from civilization and the comforts of town and technology. You’ve w itnessed the migration of herds larger than forests, survived weather more extreme than any city-dweller could comprehend, and enjoyed the solitude of being the only thinking creature for miles in any direction. The wilds are in your blood, whether you were a nomad, an explorer, a recluse, a hunter-gatherer, or even a marauder. Even in places where you don’t know the specific features of the terrain, you know the ways of the wild.",
+        "languages" : "one of choice",
+        "equipment" : "A staff, a hunting trap, a trophy from an animal you killed, a set of traveler’s clothes, and a belt pouch containing 10 gp",
+        "toolprof" : "One type of musical instrument",
+        "skillprof" : [ 
+            4, 
+            18
+        ]
+    },
+    {
+        "id" : 5,
+        "name" : "Noble",
+        "description" : "You understand wealth, power, and privilege. You carry a noble title, and your family ow ns land, collects taxes, and w ields significant political influence. You might be a pam pered aristocrat unfamiliar with work or discomfort, a form er merchant just elevated to the nobility, or a disinherited scoundrel with a disproportionate sense of entitlement. Or you could be an honest, hard-working landowner w ho cares deeply about the people w ho live and w ork on your land, keenly aware of your responsibility to them",
+        "languages" : "one of choice",
+        "equipment" : "A set of fine clothes, a signet ring, a scroll of pedigree, and a purse containing 25 gp",
+        "toolprof" : "One type of gaming set ",
+        "skillprof" : [ 
+            6, 
+            14
+        ]
+    }
+]

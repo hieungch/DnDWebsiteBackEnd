@@ -1,0 +1,331 @@
+[
+    {
+        "id" : 1,
+        "name" : "Rage",
+        "description" : "While raging, you gain the following benefits if you aren’t wearing heavy armor.You have advantage on Strength checks and Strength saving throws. weapon attack using Strength gain a bonus to the damage roll that increases as you gain levels as a barbarian,.You have resistance to bludgeoning, piercing and slashing.",
+        "levelRequirement" : 1,
+        "type" : "class"
+    },
+    {
+        "id" : 2,
+        "name" : "Unarmored defense",
+        "description" : "While you are not wearing any armor, your Arm or Class equals 10 + your Dexterity m odifier + your Constitution modifier. You can use a shield and still gain this benefit.",
+        "levelRequirement" : 1,
+        "type" : "class"
+    },
+    {
+        "id" : 3,
+        "name" : "Reckless attack",
+        "description" : "Starting at 2nd level, you can attack with fierce desperation. When you make your first attack on your turn, you can attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.",
+        "levelRequirement" : 2,
+        "type" : "class"
+    },
+    {
+        "id" : 4,
+        "name" : "Fast movement",
+        "description" : "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn",
+        "levelRequirement" : 5,
+        "type" : "class"
+    },
+    {
+        "id" : 5,
+        "name" : "Feral instinct",
+        "description" : "By 7th level, your instincts are so honed that you have advantage on initiative rolls.",
+        "levelRequirement" : 7,
+        "type" : "class"
+    },
+    {
+        "id" : 6,
+        "name" : "Brutal critical",
+        "description" : "Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.This increases to two additional dice at 13th level and three additional dice at 17th level",
+        "levelRequirement" : 9,
+        "type" : "class"
+    },
+    {
+        "id" : 7,
+        "name" : "Frenzy",
+        "description" : "Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. for duration of your frency rage, you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion",
+        "levelRequirement" : 3,
+        "type" : "class"
+    },
+    {
+        "id" : 8,
+        "name" : "Mindless rage",
+        "description" : "Beginning at 6th level, you can’t be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the rage",
+        "levelRequirement" : 6,
+        "type" : "class"
+    },
+    {
+        "id" : 9,
+        "name" : "Feral instinct",
+        "description" : "Beginning at 10th level, you can use your action to frighten som eone with your menacing presence.When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a W isdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the end of your next turn",
+        "levelRequirement" : 10,
+        "type" : "class"
+    },
+    {
+        "id" : 10,
+        "name" : "Totem spirit",
+        "description" : "At 3rd level, when you adopt this path, you choose a totem spirit and gain its feature.BEAR: While raging, you have resistance to all damage except psychic damage. The spirit of the bear makes you tough enough to stand up to any punishment.EAGLE: While you're raging and aren’t wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash action as a bonus action on your turn. The spirit of the eagle m akes you into a predator who can weave through the fray with ease.WOLF: While you're raging, your friends have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you. The spirit of the wolf m akes you a leader of hunters.",
+        "levelRequirement" : 3,
+        "type" : "class"
+    },
+    {
+        "id" : 11,
+        "name" : "Aspect of the beast",
+        "description" : "additional bonus from the previous totem or choose another one.BEAR: You gain the might of a bear. Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, or break objects.EAGLE: You gain the eyesight of an eagle. You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at som ething no more than 100 feet away from you. Additionally, dim light doesn't im pose disadvantage on your Wisdom (Perception) checks.WOLF: You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace (see chapter 8 for rules on travel pace).",
+        "levelRequirement" : 6,
+        "type" : "class"
+    },
+    {
+        "id" : 12,
+        "name" : "Spirit walker",
+        "description" : "At 10th level, you can cast the commune with naturespell, but only as a ritual. W hen you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek.",
+        "levelRequirement" : 10,
+        "type" : "class"
+    },
+    {
+        "id" : 13,
+        "name" : "Fighting style",
+        "description" : "pick one. ARCHERY: You gain a +2 bonus to attack rolls you make with ranged weapons.DEFENSE: While you are wearing armor, you gain a +1 bonus to AC. DUELING: When you are wielding a melee weapon in one hand and no other w eapons, you gain a +2 bonus to damage rolls with that weapon. GREATWEAPONFIGHTING: When you roll a 1 or 2 on a damage die for an attack you m ake with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or 2. The weapon must have the two-handed or versatile property for you to gain this benefit.PROTECTION: When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.2-WEAPON-Fighting: When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.",
+        "levelRequirement" : 1,
+        "type" : "class"
+    },
+    {
+        "id" : 14,
+        "name" : "Second wind",
+        "description" : "You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d 10 + your fighter level.O nce you use this feature, you must finish a short or long rest before you can use it again.",
+        "levelRequirement" : 1,
+        "type" : "class"
+    },
+    {
+        "id" : 15,
+        "name" : "Action surge",
+        "description" : "Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn",
+        "levelRequirement" : 2,
+        "type" : "class"
+    },
+    {
+        "id" : 16,
+        "name" : "Martial archetype",
+        "description" : "At 3rd level, you ch oose an archetype that you strive to emulate in your com bat styles and techniques. Choose Champion, Battle Master, or Eldritch Knight, all detailed at the end of the class description. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level",
+        "levelRequirement" : 3,
+        "type" : "class"
+    },
+    {
+        "id" : 17,
+        "name" : "Rapid attacks",
+        "description" : "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class.",
+        "levelRequirement" : 5,
+        "type" : "class"
+    },
+    {
+        "id" : 18,
+        "name" : "Indomitable",
+        "description" : "Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can’t use this feature again until you finish a long rest.You can use this feature tw ice between long rests starting at 13th level and three times between long rests starting at 17th level.",
+        "levelRequirement" : 9,
+        "type" : "class"
+    },
+    {
+        "id" : 19,
+        "name" : "Improved critical",
+        "description" : "Beginning when you ch oose this archetype at 3rd level, your w eapon attacks score a critical hit on a roll of 19 or 20",
+        "levelRequirement" : 3,
+        "type" : "class"
+    },
+    {
+        "id" : 20,
+        "name" : "Remarkable athlete",
+        "description" : "Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn’t already use your proficiency bonus.In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier.",
+        "levelRequirement" : 7,
+        "type" : "class"
+    },
+    {
+        "id" : 21,
+        "name" : "Ultimate critical",
+        "description" : "Starting at 15th level, your w eapon attacks score a critical hit on a roll of 18-20.",
+        "levelRequirement" : 15,
+        "type" : "class"
+    },
+    {
+        "id" : 22,
+        "name" : "Combat superiority",
+        "description" : "When you ch oose this archetype at 3rd level, you learn maneuvers that are fueled by special dice called superiority dice.MANUEVERS: You learn three maneuvers of your choice, which are detailed under “Maneuvers” section. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.You learn two additional maneuvers of your choice at 7th, 10th, and 15th level. Each time you learn new maneuvers, you can also replace one maneuver you know with a different one. SUPERIORITY DICE: You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.You gain another superiority die at 7th level and one more at 15th level.SAVINGTHROW: Some of your maneuvers require your target to make a saving throw to resist the maneuver’s effects. The saving throw DC is calculated as follows:Maneuver save DC = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)",
+        "levelRequirement" : 3,
+        "type" : "class"
+    },
+    {
+        "id" : 23,
+        "name" : "Know your enemy",
+        "description" : "Starting at 7th level, if you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities com pared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two characteristics like abilityScore",
+        "levelRequirement" : 7,
+        "type" : "class"
+    },
+    {
+        "id" : 24,
+        "name" : "Relentless",
+        "description" : "Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain 1 superiority die.",
+        "levelRequirement" : 15,
+        "type" : "class"
+    },
+    {
+        "id" : 25,
+        "name" : "Spellcasting",
+        "description" : "Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and mem orization. You use your Intelligence whenever a spell refers to your spellcasting ability.In addition, you use your Intelligence m odifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.SPELL-SAVE DC = 8 + your proficiency bonus + your Intelligence modifier.SPELL-ATTACK-MODFIER = your proficiency bonus + your intelligence modifier",
+        "levelRequirement" : 1,
+        "type" : "class"
+    },
+    {
+        "id" : 26,
+        "name" : "Arcane recovery",
+        "description" : "You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your w izard level (rounded up), and none of the slots can be 6th level or higher.For example, if you’re a 4th-level wizard, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots",
+        "levelRequirement" : 1,
+        "type" : "class"
+    },
+    {
+        "id" : 27,
+        "name" : "Spell mastery",
+        "description" : "At 18th level, you have achieved such mastery over certain spells that you can cast them at will. C hoose a 1st-level w izard spell and a 2nd-level w izard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot w hen you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.By spending 8 hours in study, you can exchange one or both o f the spells you chose for different spells of the same levels",
+        "levelRequirement" : 18,
+        "type" : "class"
+    },
+    {
+        "id" : 28,
+        "name" : "Signature spell",
+        "description" : "When you reach 20th level, you gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-level wizard spells in your spellbook as your signature spells. You always have these spells prepared, they don’t count against the number of spells you have prepared, and you can cast each of them once at 3rd level without expending a spell slot. When you do so, you can’t do so again until you finish a short or long rest.If you want to cast either spell at a higher level, you must expend a spell slot as normal.",
+        "levelRequirement" : 20,
+        "type" : "class"
+    },
+    {
+        "id" : 29,
+        "name" : "Divination savant",
+        "description" : "Beginning when you select this school at 2nd level, the gold and time you must spend to copy a divination spell into your spellbook is halved.",
+        "levelRequirement" : 2,
+        "type" : "class"
+    },
+    {
+        "id" : 30,
+        "name" : "Expert Divination",
+        "description" : "Beginning at 6th level, casting divination spells com es so easily to you that it expends only a fraction of your spellcasting efforts. W hen you cast a divination spell of 2nd level or higher using a spell slot, you regain one expended spell slot. The slot you regain must be of a level lower than the spell you cast and can’t be higher than 5th level.",
+        "levelRequirement" : 6,
+        "type" : "class"
+    },
+    {
+        "id" : 31,
+        "name" : "The third eye",
+        "description" : "Starting at 10th level, you can use your action to increase your pow ers of perception. When you do so,choose one of the following benefits, which lasts until you are incapacitated or you take a short or long rest. You can’t use the feature again until you finish a rest.DARKVISION: You gain darkvision out to a range of 60 feet.ETHERIAL SIGHT: You can see into the Ethereal Plane within 60 feet of you.GREATER COMPREHENSION: You can read any language.SEE INVISIBILITY: You can see invisible creatures and objects within 10 feet of you that are within line of sight.",
+        "levelRequirement" : 10,
+        "type" : "class"
+    },
+    {
+        "id" : 32,
+        "name" : "Evocation savant",
+        "description" : "Beginning when you select this school at 2nd level, the gold and time you must spend to copy a evocation spell into your spellbook is halved.",
+        "levelRequirement" : 2,
+        "type" : "class"
+    },
+    {
+        "id" : 33,
+        "name" : "Potant cantrip",
+        "description" : "Starting at 6th level, your damaging cantrips affect even creatures that avoid the brunt of the effect. When a creature succeeds on a saving throw against your cantrip, the creature takes half the cantrip’s damage (if any) but suffers no additional effect from the cantrip.",
+        "levelRequirement" : 6,
+        "type" : "class"
+    },
+    {
+        "id" : 34,
+        "name" : "Empowered evocation",
+        "description" : "Beginning at 10th level, you can add your Intelligence modifier to the damage roll of any wizard evocation spell you cast",
+        "levelRequirement" : 10,
+        "type" : "class"
+    },
+    {
+        "id" : 35,
+        "name" : "Darkvision",
+        "description" : "Ccustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it w ere dim light. You can’t discern color in darkness, only shades of gray.",
+        "levelRequirement" : 1,
+        "type" : "race"
+    },
+    {
+        "id" : 36,
+        "name" : "Dwarven Resilience",
+        "description" : "You have advantage on saving throws against poison, and you have resistance against poison damage",
+        "levelRequirement" : 1,
+        "type" : "race"
+    },
+    {
+        "id" : 37,
+        "name" : "Dwarven Combat Training",
+        "description" : ". You have proficiency with the battleaxe, handaxe, throwing hammer, and warhammer.",
+        "levelRequirement" : 1,
+        "type" : "race"
+    },
+    {
+        "id" : 38,
+        "name" : "Hill Dwarf Toughness",
+        "description" : "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.",
+        "levelRequirement" : 1,
+        "type" : "race"
+    },
+    {
+        "id" : 39,
+        "name" : "Mountain Dwarven Armor Training",
+        "description" : "You have proficiency with light and medium armor",
+        "levelRequirement" : 1,
+        "type" : "race"
+    },
+    {
+        "id" : 40,
+        "name" : "Darkvision",
+        "description" : "Accustom ed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it w ere bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray",
+        "levelRequirement" : 1,
+        "type" : "race"
+    },
+    {
+        "id" : 41,
+        "name" : "Fey Ancestry",
+        "description" : "You have advantage on saving throws against being charmed, and magic can’t put you to sleep.",
+        "levelRequirement" : 1,
+        "type" : "race"
+    },
+    {
+        "id" : 42,
+        "name" : "Trance",
+        "description" : "Elves don’t need to sleep. Instead, they meditate deeply, remaining sem iconscious, for 4 hours a day. After resting in this way, you gain the sam e benefit that a human does from 8 hours of sleep.",
+        "levelRequirement" : 1,
+        "type" : "race"
+    },
+    {
+        "id" : 43,
+        "name" : "High-Elf Weapon Training",
+        "description" : "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+        "levelRequirement" : 1,
+        "type" : "race"
+    },
+    {
+        "id" : 44,
+        "name" : "High-elf Extra Language",
+        "description" : "You can speak, read, and write one extra language of your choice.",
+        "levelRequirement" : 1,
+        "type" : "race"
+    },
+    {
+        "id" : 45,
+        "name" : "Wood-Elf Weapon Training",
+        "description" : "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+        "levelRequirement" : 1,
+        "type" : "race"
+    },
+    {
+        "id" : 46,
+        "name" : "Mask of the Wild",
+        "description" : "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.",
+        "levelRequirement" : 1,
+        "type" : "race"
+    },
+    {
+        "id" : 47,
+        "name" : "Human's wit",
+        "description" : "if you like, you can instead subtract 4 ability scores of your choice by 1 BUT choose another skill to be proficient and a feat",
+        "levelRequirement" : 1,
+        "type" : "race"
+    }
+]

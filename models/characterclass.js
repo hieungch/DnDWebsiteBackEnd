@@ -4,6 +4,9 @@ const Schema = mongoose.Schema;
 
 let characterclass = new Schema(
   {
+    id: {
+      type: Number,
+    },
     className: {
       type: String,
     },

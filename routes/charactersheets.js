@@ -4,6 +4,7 @@ const character = require("../models/charactersheet");
 const bodyParser = require("body-parser");
 let jsonParser = bodyParser.json();
 
+//GET all character sheets
 router.get("/", async (req, res) => {
   let result = await character.aggregate([
     {
@@ -18,10 +19,39 @@ router.get("/", async (req, res) => {
       // Without this the character class will still be in a array
       $unwind: "$characterClass",
     },
+    {
+      $lookup: {
+        from: "backgrounds",
+        localField: "background",
+        foreignField: "id",
+        as: "background",
+      },
+    },
+    {
+      $unwind: "$background",
+    },
+    {
+      $lookup: {
+        from: "races",
+        localField: "race",
+        foreignField: "id",
+        as: "race",
+      },
+    },
+    {
+      $unwind: "$race",
+    },
   ]);
 
   res.json(result);
 });
+
+// show a char
+router.get("/:id", jsonParser, async (req, res) => {
+  const char = await character.findById(req.params.id);
+  res.json(char);
+});
+
 // create new character
 router.post("/", jsonParser, async (req, res) => {
   let c = await character.find().sort({ id: -1 }).limit(1);
@@ -53,12 +83,6 @@ router.post("/", jsonParser, async (req, res) => {
   res.sendStatus(200);
 });
 module.exports = router;
-
-// show a char
-router.get("/:id", jsonParser, async (req, res) => {
-  const char = await character.findById(req.params.id);
-  res.json(char);
-});
 
 // Update character sheet
 router.put("/:id", jsonParser, async (req, res) => {

@@ -48,8 +48,48 @@ router.get("/", async (req, res) => {
 
 // show a char
 router.get("/:id", jsonParser, async (req, res) => {
-  const char = await character.findById(req.params.id);
-  res.json(char);
+  let result = await character.aggregate([
+    { $match: { id: parseInt(req.params.id, 10) } },
+    {
+      $lookup: {
+        from: "characterclasses",
+        localField: "characterClass",
+        foreignField: "id",
+        as: "characterClass",
+      },
+    },
+    {
+      // Without this the character class will still be in a array
+      $unwind: "$characterClass",
+    },
+    {
+      $lookup: {
+        from: "backgrounds",
+        localField: "background",
+        foreignField: "id",
+        as: "background",
+      },
+    },
+    {
+      $unwind: "$background",
+    },
+    {
+      $lookup: {
+        from: "races",
+        localField: "race",
+        foreignField: "id",
+        as: "race",
+      },
+    },
+    {
+      $unwind: "$race",
+    },
+  ]);
+  if (result.length == 0) {
+    res.sendStatus(404);
+  }
+
+  res.json(result[0]);
 });
 
 // create new character

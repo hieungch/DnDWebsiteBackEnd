@@ -4,6 +4,7 @@ require("./database");
 const config = require("./config.json");
 
 const bodyParser = require("body-parser");
+const cors = require("cors");
 
 const skillRouter = require("./routes/skills");
 const backgroundRouter = require("./routes/backgrounds");
@@ -19,6 +20,7 @@ const characterRouter = require("./routes/charactersheets");
 
 const app = express();
 app.use(bodyParser.json({ type: "application/*+json" }));
+app.use(cors({ origin: "*" }));
 
 app.use("/skills", skillRouter);
 app.use("/charactersheets", characterRouter);

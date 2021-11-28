@@ -2,7 +2,7 @@ require("./database");
 const ability = require("./models/ability");
 const abilityData = require("./data/abilities.json");
 const background = require("./models/background");
-const backgroundData = require("./data/characterClasses.json");
+const backgroundData = require("./data/backgrounds.json");
 const characterClass = require("./models/characterclass");
 const characterClassData = require("./data/characterclasses.json");
 const characterSheet = require("./models/charactersheet");

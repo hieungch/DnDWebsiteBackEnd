@@ -12,11 +12,26 @@ router.get("/", async (req, res) => {
         as: "ability",
       },
     },
-    // {
-    //   // Without this the character class will still be in a array
-    //   // cant be used to unwind like others since there are many abilities
-    //   $unwind: "$ability",
-    // },
+    {
+      $lookup: {
+        from: "skills",
+        localField: "profSkill",
+        foreignField: "id",
+        as: "profSkill",
+      },
+    },
+    {
+      $lookup: {
+        from: "specialstats",
+        localField: "specialStat",
+        foreignField: "id",
+        as: "specialStat",
+      },
+    },
+    {
+      // cant be used to unwind like others since there are many abilities
+      $unwind: "$specialStat",
+    },
   ]);
   res.json(result);
 });

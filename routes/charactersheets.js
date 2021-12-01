@@ -21,6 +21,14 @@ router.get("/", async (req, res) => {
     },
     {
       $lookup: {
+        from: "abilities",
+        localField: "characterClass.ability",
+        foreignField: "id",
+        as: "characterClass.ability",
+      },
+    },
+    {
+      $lookup: {
         from: "backgrounds",
         localField: "background",
         foreignField: "id",
@@ -61,6 +69,14 @@ router.get("/:id", jsonParser, async (req, res) => {
     {
       // Without this the character class will still be in a array
       $unwind: "$characterClass",
+    },
+    {
+      $lookup: {
+        from: "abilities",
+        localField: "characterClass.ability",
+        foreignField: "id",
+        as: "characterClass.ability",
+      },
     },
     {
       $lookup: {

@@ -21,7 +21,7 @@ let race = new Schema(
       type: String,
     },
     speed: {
-      type: String,
+      type: Number,
     },
     languages: {
       type: String,

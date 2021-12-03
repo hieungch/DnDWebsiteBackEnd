@@ -144,7 +144,10 @@ module.exports = router;
 router.put("/:id", jsonParser, async (req, res) => {
   let upChar;
   try {
-    upChar = await character.findById(req.params.id);
+    upChar = await character.aggregate([
+      { $match: { id: parseInt(req.params.id, 10) } },
+    ]);
+    console.log("upchar is=", upChar);
     upChar.name = req.body.name;
     upChar.level = req.body.level;
     upChar.inspiration = req.body.inspiration;

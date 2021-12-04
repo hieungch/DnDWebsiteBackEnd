@@ -144,10 +144,10 @@ module.exports = router;
 router.put("/:id", jsonParser, async (req, res) => {
   let upChar;
   try {
-    upChar = await character.aggregate([
-      { $match: { id: parseInt(req.params.id, 10) } },
-    ]);
-    console.log("upchar is=", upChar);
+    upChar = await character.findOne({ id: parseInt(req.params.id, 10) });
+    if (upChar == null) {
+      return res.sendStatus(404);
+    }
     upChar.name = req.body.name;
     upChar.level = req.body.level;
     upChar.inspiration = req.body.inspiration;
@@ -167,10 +167,8 @@ router.put("/:id", jsonParser, async (req, res) => {
     await upChar.save();
     console.log("NewCharsheets=", upChar);
     res.sendStatus(200);
-  } catch {
-    if (upChar != null) {
-      console.log("error");
-    }
+  } catch (err) {
+    console.log(err);
   }
 });
 

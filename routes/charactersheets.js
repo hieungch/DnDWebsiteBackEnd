@@ -133,7 +133,7 @@ router.post("/", jsonParser, async (req, res) => {
     skillProficency: req.body.skillProficency,
     feats: [],
   };
-  console.log("charsheet=", characterSheet);
+  console.log("new Charsheet=", characterSheet);
   await character.insertMany(characterSheet);
   /// 200 mean success
   res.sendStatus(200);

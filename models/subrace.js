@@ -4,6 +4,10 @@ const Schema = mongoose.Schema;
 
 let subrace = new Schema(
   {
+    id: {
+      type: Number,
+      unique: true,
+    },
     name: {
       type: String,
     },

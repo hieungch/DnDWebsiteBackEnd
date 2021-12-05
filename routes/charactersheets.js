@@ -60,6 +60,25 @@ router.get("/", async (req, res) => {
     {
       $unwind: "$race",
     },
+    {
+      $lookup: {
+        from: "races",
+        localField: "race.mainRace",
+        foreignField: "id",
+        as: "race.mainRace",
+      },
+    },
+    {
+      $unwind: "$race.mainRace",
+    },
+    {
+      $lookup: {
+        from: "abilities",
+        localField: "race.subRacialAbilities",
+        foreignField: "id",
+        as: "race.subRacialAbilities",
+      },
+    },
   ]);
 
   res.json(result);
@@ -121,6 +140,25 @@ router.get("/:id", jsonParser, async (req, res) => {
     },
     {
       $unwind: "$race",
+    },
+    {
+      $lookup: {
+        from: "races",
+        localField: "race.mainRace",
+        foreignField: "id",
+        as: "race.mainRace",
+      },
+    },
+    {
+      $unwind: "$race.mainRace",
+    },
+    {
+      $lookup: {
+        from: "abilities",
+        localField: "race.subRacialAbilities",
+        foreignField: "id",
+        as: "race.subRacialAbilities",
+      },
     },
   ]);
   if (result.length == 0) {
@@ -195,4 +233,17 @@ router.put("/:id", jsonParser, async (req, res) => {
 });
 
 //Delete character sheet
-router.delete("/:id", async (req, res) => {});
+router.delete("/:id", jsonParser, async (req, res) => {
+  let characterSheet;
+  try {
+    characterSheet = await character.findOne({
+      id: parseInt(req.params.id, 10),
+    });
+    if (characterSheet == null) {
+      return res.sendStatus(404);
+    }
+    await characterSheet.remove();
+  } catch (err) {
+    console.log(err);
+  }
+});

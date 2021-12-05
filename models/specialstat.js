@@ -11,6 +11,9 @@ let specialstat = new Schema(
     specialStatName: {
       type: String,
     },
+    scale: {
+      type: Array,
+    },
   },
   { collection: "specialstats" }
 );

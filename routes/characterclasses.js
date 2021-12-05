@@ -6,6 +6,17 @@ router.get("/", async (req, res) => {
   let result = await characterclass.aggregate([
     {
       $lookup: {
+        from: "specialstats",
+        localField: "specialStat",
+        foreignField: "id",
+        as: "specialStat",
+      },
+    },
+    {
+      $unwind: "$specialStat",
+    },
+    {
+      $lookup: {
         from: "abilities",
         localField: "ability",
         foreignField: "id",
@@ -19,18 +30,6 @@ router.get("/", async (req, res) => {
         foreignField: "id",
         as: "profSkill",
       },
-    },
-    {
-      $lookup: {
-        from: "specialstats",
-        localField: "specialStat",
-        foreignField: "id",
-        as: "specialStat",
-      },
-    },
-    {
-      // cant be used to unwind like others since there are many abilities
-      $unwind: "$specialStat",
     },
   ]);
   res.json(result);

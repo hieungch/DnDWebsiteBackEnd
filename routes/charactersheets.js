@@ -21,6 +21,17 @@ router.get("/", async (req, res) => {
     },
     {
       $lookup: {
+        from: "specialstats",
+        localField: "characterClass.specialStat",
+        foreignField: "id",
+        as: "characterClass.specialStat",
+      },
+    },
+    {
+      $unwind: "$characterClass.specialStat",
+    },
+    {
+      $lookup: {
         from: "abilities",
         localField: "characterClass.ability",
         foreignField: "id",
@@ -72,6 +83,17 @@ router.get("/:id", jsonParser, async (req, res) => {
     },
     {
       $lookup: {
+        from: "specialstats",
+        localField: "characterClass.specialStat",
+        foreignField: "id",
+        as: "characterClass.specialStat",
+      },
+    },
+    {
+      $unwind: "$characterClass.specialStat",
+    },
+    {
+      $lookup: {
         from: "abilities",
         localField: "characterClass.ability",
         foreignField: "id",
@@ -91,7 +113,7 @@ router.get("/:id", jsonParser, async (req, res) => {
     },
     {
       $lookup: {
-        from: "races",
+        from: "subraces",
         localField: "race",
         foreignField: "id",
         as: "race",

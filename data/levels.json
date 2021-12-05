@@ -22,17 +22,17 @@
     {
         "id" : 5,
         "proficiencyBonus" : 3,
-        "abilityImprovement" : true
+        "abilityImprovement" : false
     },
     {
         "id" : 6,
         "proficiencyBonus" : 3,
-        "abilityImprovement" : true
+        "abilityImprovement" : false
     },
     {
         "id" : 7,
         "proficiencyBonus" : 3,
-        "abilityImprovement" : true
+        "abilityImprovement" : false
     },
     {
         "id" : 8,

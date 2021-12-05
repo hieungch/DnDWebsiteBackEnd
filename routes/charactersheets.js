@@ -51,7 +51,7 @@ router.get("/", async (req, res) => {
     },
     {
       $lookup: {
-        from: "races",
+        from: "subraces",
         localField: "race",
         foreignField: "id",
         as: "race",

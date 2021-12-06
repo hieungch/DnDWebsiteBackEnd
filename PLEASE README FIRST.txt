@@ -2,7 +2,7 @@ Thank you for reading this note
 this note is the same as the one in the FrontEnd folder
 this note was provided to give you this link for latest video demonstration of the report
 
-LINK:
+LINK: https://drive.google.com/file/d/1f8okxS5QAbaLtlYE0bCkhnD869as_RsG/view?usp=sharing
 
 And the guide on how to try and run the application on your own device:
 1. install Docker

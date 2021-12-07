@@ -17,6 +17,7 @@ const raceRouter = require("./routes/races");
 const subraceRouter = require("./routes/subraces");
 const specialStatRouter = require("./routes/specialstats");
 const characterRouter = require("./routes/charactersheets");
+const noteRouter = require("./routes/notes");
 
 const app = express();
 app.use(bodyParser.json({ type: "application/*+json" }));
@@ -33,6 +34,7 @@ app.use("/abilities", abilitiesRouter);
 app.use("/characterclasses", characterclassRouter);
 app.use("/races", raceRouter);
 app.use("/subraces", subraceRouter);
+app.use("/notes", noteRouter);
 
 app.listen(config.port, config.host, () => {
   console.log(

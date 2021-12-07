@@ -56,6 +56,9 @@ let characterSheet = new Schema(
     feats: {
       type: Array,
     },
+    charNotes: {
+      type: Array,
+    },
   },
   { collection: "charactersheets" }
 );

@@ -79,6 +79,14 @@ router.get("/", async (req, res) => {
         as: "race.subRacialAbilities",
       },
     },
+    {
+      $lookup: {
+        from: "notes",
+        localField: "charNotes",
+        foreignField: "id",
+        as: "charNotes",
+      },
+    },
   ]);
 
   res.json(result);
@@ -160,6 +168,14 @@ router.get("/:id", jsonParser, async (req, res) => {
         as: "race.subRacialAbilities",
       },
     },
+    {
+      $lookup: {
+        from: "notes",
+        localField: "charNotes",
+        foreignField: "id",
+        as: "charNotes",
+      },
+    },
   ]);
   if (result.length == 0) {
     res.sendStatus(404);
@@ -192,6 +208,7 @@ router.post("/", jsonParser, async (req, res) => {
     maxHp: req.body.maxHp,
     skillProficency: req.body.skillProficency,
     feats: [],
+    charNotes: [],
   };
   console.log("new Charsheet=", characterSheet);
   await character.insertMany(characterSheet);
@@ -224,6 +241,7 @@ router.put("/:id", jsonParser, async (req, res) => {
     upChar.maxHp = req.body.maxHp;
     upChar.skillProficency = req.body.skillProficency;
     upChar.feats = req.body.feats;
+    upChar.charNotes = req.body.charNotes;
     await upChar.save();
     console.log("NewCharsheets=", upChar);
     res.sendStatus(200);

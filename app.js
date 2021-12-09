@@ -19,6 +19,9 @@ const specialStatRouter = require("./routes/specialstats");
 const characterRouter = require("./routes/charactersheets");
 const noteRouter = require("./routes/notes");
 
+const spellSchoolRouter = require("./routes/spmagicschools");
+const spellRouter = require("./routes/spells");
+
 const app = express();
 app.use(bodyParser.json({ type: "application/*+json" }));
 app.use(cors({ origin: "*" }));
@@ -35,6 +38,8 @@ app.use("/characterclasses", characterclassRouter);
 app.use("/races", raceRouter);
 app.use("/subraces", subraceRouter);
 app.use("/notes", noteRouter);
+app.use("/spmagicschools", spellSchoolRouter);
+app.use("/spells", spellRouter);
 
 app.listen(config.port, config.host, () => {
   console.log(

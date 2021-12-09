@@ -59,6 +59,9 @@ let characterSheet = new Schema(
     charNotes: {
       type: Array,
     },
+    charSpells: {
+      type: Array,
+    },
   },
   { collection: "charactersheets" }
 );

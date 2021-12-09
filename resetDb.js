@@ -21,6 +21,14 @@ const specialStat = require("./models/specialstat");
 const specialStatData = require("./data/specialstats.json");
 const subrace = require("./models/subrace");
 const subRaceData = require("./data/subraces.json");
+const note = require("./models/note");
+const noteData = require("./data/notes.json");
+const splevel = require("./models/splevel");
+const splevelData = require("./data/splevels.json");
+const spSchool = require("./models/spmagicschool");
+const spSchoolData = require("./data/spmagicschools.json");
+const spell = require("./models/spell");
+const spellData = require("./data/spells.json");
 
 async function reset() {
   await ability.deleteMany({});
@@ -45,6 +53,14 @@ async function reset() {
   await specialStat.insertMany(specialStatData);
   await subrace.deleteMany({});
   await subrace.insertMany(subRaceData);
+  await note.deleteMany({});
+  await note.insertMany(noteData);
+  await splevel.deleteMany({});
+  await splevel.insertMany(splevelData);
+  await spSchool.deleteMany({});
+  await spSchool.insertMany(spSchoolData);
+  await spell.deleteMany({});
+  await spell.insertMany(spellData);
 }
 
 reset()

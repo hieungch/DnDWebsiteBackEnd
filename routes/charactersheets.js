@@ -1,11 +1,14 @@
 const express = require("express");
 const router = express.Router();
 const character = require("../models/charactersheet");
+const magicSchool = require("../models/spmagicschool");
+
 const bodyParser = require("body-parser");
 let jsonParser = bodyParser.json();
 
 //GET all character sheets
 router.get("/", async (req, res) => {
+  let allSchool = await magicSchool.find({});
   let result = await character.aggregate([
     {
       $lookup: {
@@ -87,13 +90,36 @@ router.get("/", async (req, res) => {
         as: "charNotes",
       },
     },
+    {
+      $lookup: {
+        from: "feats",
+        localField: "feats",
+        foreignField: "id",
+        as: "feats",
+      },
+    },
+    {
+      $lookup: {
+        from: "spells",
+        localField: "charSpells",
+        foreignField: "id",
+        as: "charSpells",
+      },
+    },
   ]);
+
+  result.forEach((element) => {
+    element.charSpells.forEach((spell) => {
+      spell.spMagicSchool = allSchool.find((x) => x.id == spell.spMagicSchool);
+    });
+  });
 
   res.json(result);
 });
 
 // show a char
 router.get("/:id", jsonParser, async (req, res) => {
+  let allSchool = await magicSchool.find({});
   let result = await character.aggregate([
     { $match: { id: parseInt(req.params.id, 10) } },
     {
@@ -176,10 +202,42 @@ router.get("/:id", jsonParser, async (req, res) => {
         as: "charNotes",
       },
     },
+    {
+      $lookup: {
+        from: "feats",
+        localField: "feats",
+        foreignField: "id",
+        as: "feats",
+      },
+    },
+    {
+      $lookup: {
+        from: "spells",
+        localField: "charSpells",
+        foreignField: "id",
+        as: "charSpells",
+      },
+    },
+
+    // {
+    //   $lookup: {
+    //     from: "spmagicschools",
+    //     localField: "charSpells.spMagicSchool",
+    //     foreignField: "id",
+    //     as: "charSpells.spMagicSchool",
+    //   },
+    // },
+    // {
+    //   $unwind: "$charSpells.spMagicSchool",
+    // },
   ]);
   if (result.length == 0) {
     res.sendStatus(404);
   }
+
+  result[0].charSpells.forEach((spell) => {
+    spell.spMagicSchool = allSchool.find((x) => x.id == spell.spMagicSchool);
+  });
 
   res.json(result[0]);
 });
@@ -209,6 +267,7 @@ router.post("/", jsonParser, async (req, res) => {
     skillProficency: req.body.skillProficency,
     feats: [],
     charNotes: [],
+    charSpells: [],
   };
   console.log("new Charsheet=", characterSheet);
   await character.insertMany(characterSheet);
@@ -242,6 +301,7 @@ router.put("/:id", jsonParser, async (req, res) => {
     upChar.skillProficency = req.body.skillProficency;
     upChar.feats = req.body.feats;
     upChar.charNotes = req.body.charNotes;
+    upChar.charSpells = req.body.charSpells;
     await upChar.save();
     console.log("NewCharsheets=", upChar);
     res.sendStatus(200);

@@ -1,0 +1,41 @@
+[
+    {
+        "id" : 1,
+        "magicSchoolName" : "Abjuration"
+    },
+
+    {
+        "id" : 2,
+        "magicSchoolName" : "Conjuration"
+    },
+
+    {
+        "id" : 3,
+        "magicSchoolName" : "Divination"
+    },
+
+    {
+        "id" : 4,
+        "magicSchoolName" : "Enchantment"
+    },
+
+    {
+        "id" : 5,
+        "magicSchoolName" : "Evocation"
+    },
+
+    {
+        "id" : 6,
+        "magicSchoolName" : "Illusion"
+    },
+
+    {
+        "id" : 7,
+        "magicSchoolName" : "Necromancy"
+    },
+
+    {
+        "id" : 8,
+        "magicSchoolName" : "Transmutation"
+    }
+]

@@ -218,18 +218,6 @@ router.get("/:id", jsonParser, async (req, res) => {
         as: "charSpells",
       },
     },
-
-    // {
-    //   $lookup: {
-    //     from: "spmagicschools",
-    //     localField: "charSpells.spMagicSchool",
-    //     foreignField: "id",
-    //     as: "charSpells.spMagicSchool",
-    //   },
-    // },
-    // {
-    //   $unwind: "$charSpells.spMagicSchool",
-    // },
   ]);
   if (result.length == 0) {
     res.sendStatus(404);
